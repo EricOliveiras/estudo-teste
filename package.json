@@ -4,7 +4,8 @@
   "description": "App criando em live na trovo, voltado para TDD.\r link da live: https://trovo.live/zbax",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "sq": "sequelize"
   },
   "repository": {
     "type": "git",
