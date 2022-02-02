@@ -6,8 +6,9 @@ User.init({
   name: DataTypes.STRING,
   email: DataTypes.STRING,
   password: DataTypes.STRING,
-}, {
-  sequelize,
+}, 
+  {
+    sequelize,
   }
 );
 
