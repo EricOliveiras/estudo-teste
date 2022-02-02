@@ -10,14 +10,13 @@ describe('User', () => {
   });
 
   it('should create a user', async () => {
-
-    const response = await request(app)
+    const response = request(app)
       .post('/users')
       .send({
-        name: 'Eric',
+        name: 'eric',
         email: 'email@email.com',
         password: '123456'
-      });
+      })
 
     expect(response.status).toBe(200);
   });
