@@ -4,7 +4,7 @@
   "description": "App criando em live na trovo, voltado para TDD.\r link da live: https://trovo.live/zbax",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/server.js",
+    "dev": "nodemon src/server.js --ignore __tests__",
     "sq": "sequelize",
     "test": "jest"
   },
@@ -29,6 +29,7 @@
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "jest": "^27.4.7",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
   }
 }

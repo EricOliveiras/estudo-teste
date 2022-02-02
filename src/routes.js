@@ -2,8 +2,8 @@ const express = require('express');
 
 const routes = express.Router();
 
-routes.get('/', (req, res) => {
-  res.json({ message: 'Olá!' });	
-});
+routes.post('/users', (req, res) => {
+  res.status(200).send();
+})
 
 module.exports = routes;
